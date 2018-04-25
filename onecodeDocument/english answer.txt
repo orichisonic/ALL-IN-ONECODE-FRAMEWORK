@@ -1,0 +1,267 @@
+HRESULT SaveHdPhotos::Begin(
+	LPCWSTR filename, 
+	CComPtr<IWICImagingFactory> imagingFactory)
+{
+	m_imagingFactory = imagingFactory;
+	std::map<std::wstring,GUID> mapEncoder;
+	GetEncoderList(imagingFactory, mapEncoder);
+
+	std::wstring szDestFile = filename;
+	int pos = (int)szDestFile.rfind( L'.' );
+	
+	std::wstring szDestExt;
+
+	if( -1 != pos )
+	{
+		szDestExt = szDestFile.substr(pos,szDestFile.size()-pos+1);
+	}
+
+	GUID guid;
+	
+	MakeLower(szDestExt);
+	if( szDestExt == L".hdp" )
+		guid = mapEncoder[std::wstring(L"WMPhoto Encoder")];
+	else if( szDestExt == L".jpeg" || szDestExt == L".jpg" )
+		guid = mapEncoder[std::wstring(L"JPEG Encoder")];
+	else if( szDestExt == L".tiff" || szDestExt == L".tif" )
+		guid = mapEncoder[std::wstring(L"TIFF Encoder")];
+	else if( szDestExt == L".bmp" )
+		guid = mapEncoder[std::wstring(L"BMP Encoder")];
+	else if( szDestExt == L".png" )
+		guid = mapEncoder[std::wstring(L"PNG Encoder")];
+	else if( szDestExt == L".gif" )
+		guid = mapEncoder[std::wstring(L"GIF Encoder")];
+	else
+		return false;
+
+	return m_imageTranscoder.Begin(guid, filename, imagingFactory);
+}
+
+HRESULT SaveHdPhotos::Begin(
+	REFCLSID encoderClsid, 
+	LPCWSTR filename, 
+	CComPtr<IWICImagingFactory> imagingFactory)
+{
+	m_imagingFactory = imagingFactory;
+	return m_imageTranscoder.Begin(encoderClsid, filename, imagingFactory);
+}
+	
+HRESULT SaveHdPhotos::AddFrame(Gdiplus::Bitmap* pbmp, Gdiplus::Bitmap* pbmpThumbnail)
+{
+	CComQIPtr<IWICBitmap> pIBitmap;
+	HRESULT hr = GetBitmap( pbmp, pIBitmap);
+
+	if( FAILED(hr) )
+		return hr;
+
+	if( !pIBitmap )
+		return E_FAIL;
+
+	CComQIPtr<IWICBitmap> pIBitmapThumbnail;
+
+	if( pbmpThumbnail )
+	{
+		HRESULT hr = GetBitmap( pbmpThumbnail, pIBitmapThumbnail);
+
+		if( FAILED(hr) )
+			return hr;
+
+		if( !pIBitmap )
+			return E_FAIL;
+	}
+
+	CComQIPtr<IWICBitmapSource> bmpSource = pIBitmap;
+	CComQIPtr<IWICBitmapSource> bmpThumbnailSource = pIBitmapThumbnail;
+	hr = m_imageTranscoder.AddFrame( bmpSource, bmpThumbnailSource );
+
+	return hr;
+}
+
+HRESULT SaveHdPhotos::SetThumbnail(Gdiplus::Bitmap* pbmp)
+{
+	CComQIPtr<IWICBitmap> pIBitmap;
+	HRESULT hr = GetBitmap( pbmp, pIBitmap);
+
+	if( FAILED(hr) )
+		return hr;
+
+	if( !pIBitmap )
+		return E_FAIL;
+
+	CComQIPtr<IWICBitmapSource> bmpSource = pIBitmap;
+	hr = m_imageTranscoder.SetThumbnail( bmpSource );
+
+	if( hr == WINCODEC_ERR_UNSUPPORTEDOPERATION )
+		return S_FALSE;
+
+	return hr;
+}
+
+HRESULT SaveHdPhotos::SetPreview(Gdiplus::Bitmap* pbmp)
+{
+	CComQIPtr<IWICBitmap> pIBitmap;
+	HRESULT hr = GetBitmap( pbmp, pIBitmap);
+
+	if( FAILED(hr) )
+		return hr;
+
+	if( !pIBitmap )
+		return E_FAIL;
+
+	CComQIPtr<IWICBitmapSource> bmpSource = pIBitmap;
+	hr = m_imageTranscoder.SetPreview( bmpSource );
+
+	return hr;
+}
+
+HRESULT SaveHdPhotos::End()
+{
+	if( !m_imagingFactory )
+		return E_FAIL;
+
+	return m_imageTranscoder.End();
+}
+
+HRESULT SaveHdPhotos::GetBitmap( 
+	Gdiplus::Bitmap* pbmp,
+	CComQIPtr<IWICBitmap>& pIBitmap)
+{
+	if( pbmp == NULL )
+		return E_FAIL;
+	if( !m_imagingFactory )
+		return E_FAIL;
+		
+	using namespace Gdiplus;
+	Rect rect(0, 0, pbmp->GetWidth(), pbmp->GetHeight());
+
+	Gdiplus::PixelFormat gdiplusformat = PixelFormat32bppARGB;
+	if( GetPixelFormat() == GUID_WICPixelFormat32bppBGRA )
+		gdiplusformat = PixelFormat32bppARGB;
+	else if( GetPixelFormat() == GUID_WICPixelFormat24bppBGR )
+		gdiplusformat = PixelFormat24bppRGB;
+
+	BitmapData bitmapData;
+	memset( &bitmapData, 0, sizeof(bitmapData));
+	pbmp->LockBits( 
+		&rect, 
+		ImageLockModeRead,
+		gdiplusformat,
+		&bitmapData );
+
+	int nStride = bitmapData.Stride;
+	if( nStride < 0 )
+		nStride = -nStride;
+
+	UINT* SrcPixels = (UINT*)bitmapData.Scan0;
+
+	if( !SrcPixels )
+	{
+		pbmp->UnlockBits( &bitmapData );
+		return E_FAIL;
+	}
+
+	HRESULT hr = m_imagingFactory->CreateBitmapFromMemory(
+		bitmapData.Width,
+		bitmapData.Height,
+		GetPixelFormat(),
+		bitmapData.Stride,
+		bitmapData.Height*bitmapData.Stride,
+		(BYTE*)(SrcPixels),
+		&pIBitmap );
+
+	if( pIBitmap )
+		pIBitmap->SetResolution( m_dpiX, m_dpiY );
+
+	pbmp->UnlockBits( &bitmapData );
+
+	return hr;
+}
+
+HRESULT SaveHdPhotos::GetEncoderList(
+	CComPtr<IWICImagingFactory> imagingFactory,
+	std::map<std::wstring,GUID>& mapEncoder)
+{
+	mapEncoder.clear();
+
+    CComPtr<IEnumUnknown> e;
+    HRESULT result = imagingFactory->CreateComponentEnumerator(WICEncoder, WICComponentEnumerateRefresh, &e);
+    if (SUCCEEDED(result))
+    {
+        ULONG num = 0;
+        IUnknown* unk;
+
+        while ((S_OK == e->Next(1, &unk, &num)) && (1 == num))
+        {
+			std::wstring friendlyName;
+            CComQIPtr<IWICBitmapEncoderInfo> encoderInfo = unk;
+
+            // Get the name of the container
+			UINT strLen = 0;
+			if(SUCCEEDED(encoderInfo->GetFriendlyName(0,0,&strLen)))
+			{
+				wchar_t* pbuf = new wchar_t[strLen];
+				encoderInfo->GetFriendlyName(strLen,pbuf,&strLen);
+				friendlyName = pbuf;
+				delete [] pbuf;
+				pbuf = NULL;
+			}
+
+            GUID containerFormat = { 0 };
+            encoderInfo->GetContainerFormat(&containerFormat);
+			//vecEncoder.push_back(std::make_pair(friendlyName,containerFormat));
+			mapEncoder[friendlyName] = containerFormat;
+			
+			//TRACE(L"%s\n", friendlyName.c_str());
+
+#ifdef _DEBUG
+			std::wstring msg = friendlyName;
+			msg += L"\n";
+			OutputDebugString( msg.c_str() );
+#endif
+        }
+    }
+
+	if( mapEncoder.size() > 0 )
+		return S_OK;
+
+	return E_FAIL;
+}
+
+void SaveHdPhotos::MakeLower(std::wstring& str)
+{
+	for(size_t i=0; i<str.size(); ++i )
+	{
+		if( str.at(i) >= L'A' && str.at(i) <= L'Z' )
+		{
+			str.at(i) = str.at(i) - L'A' + L'a';
+		}
+	}
+}
+
+1) How to convert TIFF thumbnail into JPG picture format, and how to convert HDP into JPG picture format,vice versa. 
+
+
+
+FileStream stream = new FileStream("Rgb48.tif", FileMode.Open, 
+
+FileAccess.Read, FileShare.Read );
+
+BitmapDecoder decoder = BitmapDecoder.Create( stream,
+
+BitmapCreateOptions.PreservePixelFormat,
+
+BitmapCacheOption.None );
+
+BitmapSource source = decoder.frames[0];
+
+BitmapFrame frame = (BitmapFrame)source;
+
+// Scale down image
+
+Matrix matrix = new Matrix( );
+
+matrix.Scale( scale, scale ); // scale < 1.0
+
+MatrixTransform tranform = new MatrixTransform( matrix );
+
+TransformedBitmap transformed = new TransformedBitmap( source, transform );
