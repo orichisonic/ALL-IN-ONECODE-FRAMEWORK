@@ -1,0 +1,47 @@
+﻿<UserControl xmlns:my="clr-namespace:SampleBrowser.UserControls"  x:Class="SampleBrowser.UserControls.SearchControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             xmlns:local="clr-namespace:SampleBrowser.View"
+             d:DesignHeight="50" d:DesignWidth="900">
+    <Grid>
+        <local:SearchControl x:Name="serchControl" SnapsToDevicePixels="True" Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Center" Grid.Row="2" Loaded="serchControl_Loaded">
+            <TextBlock Text="Search Samples:" SnapsToDevicePixels="True" FontFamily="Arial" Margin="10,10,0,10" FontSize="17" FontWeight="Bold" VerticalAlignment="Center">
+            	<TextBlock.Foreground>
+            		<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+            			<GradientStop Color="#FFD8AA02" Offset="1"/>
+            			<GradientStop Color="#FFCA7802"/>
+            		</LinearGradientBrush>
+            	</TextBlock.Foreground>
+            </TextBlock>
+            <TextBox Name="txtCondition" SnapsToDevicePixels="True" Width="200" Height="30" Margin="10,10,3,10"/>
+            <Button Name="btnSearch" SnapsToDevicePixels="True" Width="60" Height="30" Content="Search" Margin="5" Foreground="Black" />
+            <ComboBox Name="cbBoxLanguage" SnapsToDevicePixels="True" Width="150" Height="30" Margin="5" SelectedIndex="0" IsEditable="True" IsReadOnly="True" HorizontalContentAlignment="Stretch">
+                <ComboBox.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <StackPanel />
+                    </ItemsPanelTemplate>
+                </ComboBox.ItemsPanel>
+                <ComboBox.ItemTemplate>
+                    <DataTemplate>
+                        <CheckBox Name="lanCkBox" SnapsToDevicePixels="True" Content="{Binding}" Margin="3,3,3,3" Click="lanCkBox_Click"/>
+                    </DataTemplate>
+                </ComboBox.ItemTemplate>
+            </ComboBox>
+            <ComboBox Name="cbBoxTechnology" SnapsToDevicePixels="True" Width="150" Height="30" Margin="5" SelectedIndex="0" IsEditable="True" IsReadOnly="True" HorizontalContentAlignment="Stretch" d:IsHidden="True">
+                <ComboBox.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <StackPanel />
+                    </ItemsPanelTemplate>
+                </ComboBox.ItemsPanel>
+                <ComboBox.ItemTemplate>
+                    <DataTemplate>
+                        <CheckBox Name="techCkBox" SnapsToDevicePixels="True" Content="{Binding}" Margin="3,3,3,3" Click="techCkBox_Click"/>
+                    </DataTemplate>
+                </ComboBox.ItemTemplate>
+            </ComboBox>
+        </local:SearchControl>
+    </Grid>
+</UserControl>

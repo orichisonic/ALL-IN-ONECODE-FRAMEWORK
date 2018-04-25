@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ProxyList>
+  <Proxy>
+    <ProxyName>Your First Proxy</ProxyName>
+    <Address>proxy1</Address>
+    <UserName></UserName>
+    <Password></Password>
+  </Proxy>
+  <Proxy>
+    <ProxyName>Your Second Proxy</ProxyName>
+    <Address>proxy2</Address>
+    <UserName></UserName>
+    <Password></Password>
+  </Proxy>
+  <Proxy>
+    <ProxyName>Proxy with Authorization</ProxyName>
+    <Address>proxy3</Address>
+    <UserName>user1</UserName>
+    <Password>123456</Password>
+  </Proxy>
+</ProxyList>

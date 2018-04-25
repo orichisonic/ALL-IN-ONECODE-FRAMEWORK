@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/463/SampleBrowser/SampleBrowser/SamplesViewModel/ViewModel
+END
+SampleDetailViewModel.cs
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/463/SampleBrowser/SampleBrowser/SamplesViewModel/ViewModel/SampleDetailViewModel.cs
+END
+MainWindowViewModel.cs
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/463/SampleBrowser/SampleBrowser/SamplesViewModel/ViewModel/MainWindowViewModel.cs
+END
+SamplesCollectionListViewModel.cs
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/463/SampleBrowser/SampleBrowser/SamplesViewModel/ViewModel/SamplesCollectionListViewModel.cs
+END
+SampleCollectionViewModel.cs
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/463/SampleBrowser/SampleBrowser/SamplesViewModel/ViewModel/SampleCollectionViewModel.cs
+END
+SampleListViewModel.cs
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/463/SampleBrowser/SampleBrowser/SamplesViewModel/ViewModel/SampleListViewModel.cs
+END

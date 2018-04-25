@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VBShellExtInfotipHandler", "VBShellExtInfotipHandler\VBShellExtInfotipHandler.vbproj", "{8AB0A41D-558D-4834-926A-B6E8794F902F}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "VBShellExtInfotipHandlerSetup(x86)", "VBShellExtInfotipHandler\VBShellExtInfotipHandlerSetup(x86)\VBShellExtInfotipHandlerSetup(x86).vdproj", "{668F67B4-E610-4E98-BEB8-1B632858ED65}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "VBShellExtInfotipHandlerSetup(x64)", "VBShellExtInfotipHandler\VBShellExtInfotipHandlerSetup(x64)\VBShellExtInfotipHandlerSetup(x64).vdproj", "{9D0A6D0C-D3DB-4C6F-9BBA-18CD4F8E3147}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8AB0A41D-558D-4834-926A-B6E8794F902F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AB0A41D-558D-4834-926A-B6E8794F902F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AB0A41D-558D-4834-926A-B6E8794F902F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AB0A41D-558D-4834-926A-B6E8794F902F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{668F67B4-E610-4E98-BEB8-1B632858ED65}.Debug|Any CPU.ActiveCfg = Debug
+		{668F67B4-E610-4E98-BEB8-1B632858ED65}.Release|Any CPU.ActiveCfg = Release
+		{9D0A6D0C-D3DB-4C6F-9BBA-18CD4F8E3147}.Debug|Any CPU.ActiveCfg = Debug
+		{9D0A6D0C-D3DB-4C6F-9BBA-18CD4F8E3147}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

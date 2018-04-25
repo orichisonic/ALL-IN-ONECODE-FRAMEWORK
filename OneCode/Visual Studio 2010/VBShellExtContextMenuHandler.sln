@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VBShellExtContextMenuHandler", "VBShellExtContextMenuHandler\VBShellExtContextMenuHandler.vbproj", "{A649B82A-DF3A-466B-99D8-36739A993DE3}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "VBShellExtContextMenuHandlerSetup(x86)", "VBShellExtContextMenuHandler\VBShellExtContextMenuHandlerSetup(x86)\VBShellExtContextMenuHandlerSetup(x86).vdproj", "{C804C7C4-AD50-4AD8-AF4B-7EEFB83C0D0C}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "VBShellExtContextMenuHandlerSetup(x64)", "VBShellExtContextMenuHandler\VBShellExtContextMenuHandlerSetup(x64)\VBShellExtContextMenuHandlerSetup(x64).vdproj", "{86989037-1945-4A36-AD31-4F22414A3347}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A649B82A-DF3A-466B-99D8-36739A993DE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A649B82A-DF3A-466B-99D8-36739A993DE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A649B82A-DF3A-466B-99D8-36739A993DE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A649B82A-DF3A-466B-99D8-36739A993DE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C804C7C4-AD50-4AD8-AF4B-7EEFB83C0D0C}.Debug|Any CPU.ActiveCfg = Debug
+		{C804C7C4-AD50-4AD8-AF4B-7EEFB83C0D0C}.Release|Any CPU.ActiveCfg = Release
+		{86989037-1945-4A36-AD31-4F22414A3347}.Debug|Any CPU.ActiveCfg = Debug
+		{86989037-1945-4A36-AD31-4F22414A3347}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

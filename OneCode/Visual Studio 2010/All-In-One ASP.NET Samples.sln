@@ -1,0 +1,336 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSASPNETAddControlDynamically", "CSASPNETAddControlDynamically\CSASPNETAddControlDynamically.csproj", "{1F8BAA1D-8A69-4647-AE5E-A65ADB0C7D55}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ExternalWebSite", "CSASPNETAJAXConsumeExternalWebService\ExternalWebSite\", "{946AB177-B45B-4D4D-8A2A-612B295CFB04}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/ExternalWebSite"
+		Debug.AspNetCompiler.PhysicalPath = "CSASPNETAJAXConsumeExternalWebService\ExternalWebSite\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\ExternalWebSite\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/ExternalWebSite"
+		Release.AspNetCompiler.PhysicalPath = "CSASPNETAJAXConsumeExternalWebService\ExternalWebSite\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\ExternalWebSite\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "43224"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "TestWebSite", "CSASPNETAJAXConsumeExternalWebService\TestWebSite\", "{7772A18A-2C28-4463-BB8D-4F7464500D55}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/TestWebSite"
+		Debug.AspNetCompiler.PhysicalPath = "CSASPNETAJAXConsumeExternalWebService\TestWebSite\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\TestWebSite\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/TestWebSite"
+		Release.AspNetCompiler.PhysicalPath = "CSASPNETAJAXConsumeExternalWebService\TestWebSite\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\TestWebSite\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "43239"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSASPNETAJAXConsumeExternalWebService", "CSASPNETAJAXConsumeExternalWebService", "{017E86F9-3A87-47E5-B871-67B6F62D6AE5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AJAX", "AJAX", "{52CD3756-8356-49A4-B726-38CE71AF34C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HTMLEditorExtender", "CSASPNETAJAXHTMLEditorExtender\HTMLEditorExtender\HTMLEditorExtender.csproj", "{4C084CAC-A5C8-4E8D-B03C-ACDE235841D2}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "TestWebSite", "CSASPNETAJAXHTMLEditorExtender\TestWebSite\", "{F9BC748C-5F13-4F5B-A0E6-EBA3A8AA74FB}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{4C084CAC-A5C8-4E8D-B03C-ACDE235841D2}|HTMLEditorExtender.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/TestWebSite"
+		Debug.AspNetCompiler.PhysicalPath = "CSASPNETAJAXHTMLEditorExtender\TestWebSite\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\TestWebSite\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/TestWebSite"
+		Release.AspNetCompiler.PhysicalPath = "CSASPNETAJAXHTMLEditorExtender\TestWebSite\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\TestWebSite\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "38400"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSASPNETAJAXHTMLEditorExtender", "CSASPNETAJAXHTMLEditorExtender", "{A996132C-796F-41C3-9589-71F7069A4AAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSASPNETAJAXWebChat", "CSASPNETAJAXWebChat\CSASPNETAJAXWebChat.csproj", "{FF9384CE-0503-4033-9FF1-55ABC9D948F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSASPNETBingMaps", "CSASPNETBingMaps\CSASPNETBingMaps.csproj", "{92FD8B3A-1CBB-4A9F-ABB1-F29E098E1513}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSASPNETChart", "CSASPNETChart\CSASPNETChart.csproj", "{E94F766A-1593-4A0F-B22D-4761272ACE41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSASPNETCMD", "CSASPNETCMD\CSASPNETCMD.csproj", "{0CF78BF9-5378-4DE0-B9AD-42CE6D9735AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSASPNETCurrentOnlineUserList", "CSASPNETCurrentOnlineUserList\CSASPNETCurrentOnlineUserList.csproj", "{431E4A9F-F522-4435-9D7F-E0571D17AE2F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSASPNETAJAXImagePreviewExtender", "CSASPNETAJAXImagePreviewExtender", "{18D38A58-D3DC-410D-A3E6-54E73DF20B3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImagePreviewExtender", "CSASPNETAJAXImagePreviewExtender\ImagePreviewExtender\ImagePreviewExtender.csproj", "{A6D2B99E-2605-484F-8AF0-2EB3F2EC7BE3}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ImagePreviewExtenderTest", "CSASPNETAJAXImagePreviewExtender\ImagePreviewExtenderTest\", "{597F56F2-8469-49D8-A9DA-6FDD29B5555B}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{A6D2B99E-2605-484F-8AF0-2EB3F2EC7BE3}|ImagePreviewExtender.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/ImagePreviewExtenderTest"
+		Debug.AspNetCompiler.PhysicalPath = "CSASPNETAJAXImagePreviewExtender\ImagePreviewExtenderTest\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\ImagePreviewExtenderTest\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/ImagePreviewExtenderTest"
+		Release.AspNetCompiler.PhysicalPath = "CSASPNETAJAXImagePreviewExtender\ImagePreviewExtenderTest\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\ImagePreviewExtenderTest\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "39467"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VBASPNETAJAXImagePreviewExtender", "VBASPNETAJAXImagePreviewExtender", "{23E739BD-6A76-4530-B153-DF68A7B0B474}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ImagePreviewExtender", "VBASPNETAJAXImagePreviewExtender\ImagePreviewExtender\ImagePreviewExtender.vbproj", "{C7C3B996-A3F2-41BC-88A0-13C67C055235}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ImagePreviewExtenderTest", "VBASPNETAJAXImagePreviewExtender\ImagePreviewExtenderTest\", "{577A8A62-B502-4A82-A62E-948EE089397C}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{C7C3B996-A3F2-41BC-88A0-13C67C055235}|ImagePreviewExtender.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/ImagePreviewExtenderTest"
+		Debug.AspNetCompiler.PhysicalPath = "VBASPNETAJAXImagePreviewExtender\ImagePreviewExtenderTest\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\ImagePreviewExtenderTest\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/ImagePreviewExtenderTest"
+		Release.AspNetCompiler.PhysicalPath = "VBASPNETAJAXImagePreviewExtender\ImagePreviewExtenderTest\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\ImagePreviewExtenderTest\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "39522"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSASPNETShareSessionBetweenSubDomainsSite1", "CSASPNETShareSessionBetweenSubDomains\CSASPNETShareSessionBetweenSubDomainsSite1\CSASPNETShareSessionBetweenSubDomainsSite1.csproj", "{6CB00119-688F-42FA-9261-3874B1E3D44F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSASPNETShareSessionBetweenSubDomainsSite2", "CSASPNETShareSessionBetweenSubDomains\CSASPNETShareSessionBetweenSubDomainsSite2\CSASPNETShareSessionBetweenSubDomainsSite2.csproj", "{1723CFF2-6368-4A91-9F98-BA02FF63CA69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSASPNETShareSessionBetweenSubDomainsModule", "CSASPNETShareSessionBetweenSubDomains\CSASPNETShareSessionBetweenSubDomainsModule\CSASPNETShareSessionBetweenSubDomainsModule.csproj", "{47861757-91B6-4F74-A198-A43544E2069B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSASPNETShareSessionBetweenSubDomains", "CSASPNETShareSessionBetweenSubDomains", "{328EF22B-0B72-41F6-BE6F-8F65804AA05F}"
+	ProjectSection(SolutionItems) = preProject
+		CSASPNETShareSessionBetweenSubDomains\ReadMe.txt = CSASPNETShareSessionBetweenSubDomains\ReadMe.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSASPNETTheme", "CSASPNETTheme\CSASPNETTheme.csproj", "{BD387C68-A41C-4438-8AC2-0419CCB95A91}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VBASPNETAddControlDynamically", "VBASPNETAddControlDynamically\VBASPNETAddControlDynamically.vbproj", "{10ED2EB7-AABC-4A77-9E03-EDB0D8420D18}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VBASPNETAJAXConsumeExternalWebService", "VBASPNETAJAXConsumeExternalWebService", "{6DC87F6C-C8D0-495B-8699-75D6753B2E47}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ExternalWebSite", "VBASPNETAJAXConsumeExternalWebService\ExternalWebSite\", "{A26D309D-47AA-4858-ABA3-0F26299C1BC2}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/ExternalWebSite"
+		Debug.AspNetCompiler.PhysicalPath = "VBASPNETAJAXConsumeExternalWebService\ExternalWebSite\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\ExternalWebSite\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/ExternalWebSite"
+		Release.AspNetCompiler.PhysicalPath = "VBASPNETAJAXConsumeExternalWebService\ExternalWebSite\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\ExternalWebSite\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "44969"
+		DefaultWebSiteLanguage = "Visual Basic"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "TestWebSite", "VBASPNETAJAXConsumeExternalWebService\TestWebSite\", "{13C269CA-7D1E-4823-AE57-59B0941A50B8}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/TestWebSite"
+		Debug.AspNetCompiler.PhysicalPath = "VBASPNETAJAXConsumeExternalWebService\TestWebSite\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\TestWebSite\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/TestWebSite"
+		Release.AspNetCompiler.PhysicalPath = "VBASPNETAJAXConsumeExternalWebService\TestWebSite\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\TestWebSite\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "44976"
+		DefaultWebSiteLanguage = "Visual Basic"
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VBASPNETAJAXWebChat", "VBASPNETAJAXWebChat\VBASPNETAJAXWebChat.vbproj", "{B8B4C69D-F86A-4636-8DD0-A3F1A249F688}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VBASPNETBingMaps", "VBASPNETBingMaps\VBASPNETBingMaps.vbproj", "{2467992A-0B02-4BE5-BDC2-B4847D0B22EE}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VBASPNETChart", "VBASPNETChart\VBASPNETChart.vbproj", "{8DE4F6C8-FC7D-45D5-96E3-A608A0E57374}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VBASPNETCMD", "VBASPNETCMD\VBASPNETCMD.vbproj", "{FCD26E11-7E17-4AA5-8583-6A38DA4660C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F8BAA1D-8A69-4647-AE5E-A65ADB0C7D55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F8BAA1D-8A69-4647-AE5E-A65ADB0C7D55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F8BAA1D-8A69-4647-AE5E-A65ADB0C7D55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F8BAA1D-8A69-4647-AE5E-A65ADB0C7D55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{946AB177-B45B-4D4D-8A2A-612B295CFB04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{946AB177-B45B-4D4D-8A2A-612B295CFB04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{946AB177-B45B-4D4D-8A2A-612B295CFB04}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{946AB177-B45B-4D4D-8A2A-612B295CFB04}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{7772A18A-2C28-4463-BB8D-4F7464500D55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7772A18A-2C28-4463-BB8D-4F7464500D55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7772A18A-2C28-4463-BB8D-4F7464500D55}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{7772A18A-2C28-4463-BB8D-4F7464500D55}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{4C084CAC-A5C8-4E8D-B03C-ACDE235841D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C084CAC-A5C8-4E8D-B03C-ACDE235841D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C084CAC-A5C8-4E8D-B03C-ACDE235841D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C084CAC-A5C8-4E8D-B03C-ACDE235841D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9BC748C-5F13-4F5B-A0E6-EBA3A8AA74FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9BC748C-5F13-4F5B-A0E6-EBA3A8AA74FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9BC748C-5F13-4F5B-A0E6-EBA3A8AA74FB}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9BC748C-5F13-4F5B-A0E6-EBA3A8AA74FB}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{FF9384CE-0503-4033-9FF1-55ABC9D948F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF9384CE-0503-4033-9FF1-55ABC9D948F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF9384CE-0503-4033-9FF1-55ABC9D948F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF9384CE-0503-4033-9FF1-55ABC9D948F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92FD8B3A-1CBB-4A9F-ABB1-F29E098E1513}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92FD8B3A-1CBB-4A9F-ABB1-F29E098E1513}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92FD8B3A-1CBB-4A9F-ABB1-F29E098E1513}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92FD8B3A-1CBB-4A9F-ABB1-F29E098E1513}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E94F766A-1593-4A0F-B22D-4761272ACE41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E94F766A-1593-4A0F-B22D-4761272ACE41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E94F766A-1593-4A0F-B22D-4761272ACE41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E94F766A-1593-4A0F-B22D-4761272ACE41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CF78BF9-5378-4DE0-B9AD-42CE6D9735AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CF78BF9-5378-4DE0-B9AD-42CE6D9735AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CF78BF9-5378-4DE0-B9AD-42CE6D9735AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CF78BF9-5378-4DE0-B9AD-42CE6D9735AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{431E4A9F-F522-4435-9D7F-E0571D17AE2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{431E4A9F-F522-4435-9D7F-E0571D17AE2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{431E4A9F-F522-4435-9D7F-E0571D17AE2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{431E4A9F-F522-4435-9D7F-E0571D17AE2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6D2B99E-2605-484F-8AF0-2EB3F2EC7BE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6D2B99E-2605-484F-8AF0-2EB3F2EC7BE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6D2B99E-2605-484F-8AF0-2EB3F2EC7BE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6D2B99E-2605-484F-8AF0-2EB3F2EC7BE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{597F56F2-8469-49D8-A9DA-6FDD29B5555B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{597F56F2-8469-49D8-A9DA-6FDD29B5555B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{597F56F2-8469-49D8-A9DA-6FDD29B5555B}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{597F56F2-8469-49D8-A9DA-6FDD29B5555B}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{C7C3B996-A3F2-41BC-88A0-13C67C055235}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7C3B996-A3F2-41BC-88A0-13C67C055235}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7C3B996-A3F2-41BC-88A0-13C67C055235}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7C3B996-A3F2-41BC-88A0-13C67C055235}.Release|Any CPU.Build.0 = Release|Any CPU
+		{577A8A62-B502-4A82-A62E-948EE089397C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{577A8A62-B502-4A82-A62E-948EE089397C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{577A8A62-B502-4A82-A62E-948EE089397C}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{577A8A62-B502-4A82-A62E-948EE089397C}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{6CB00119-688F-42FA-9261-3874B1E3D44F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CB00119-688F-42FA-9261-3874B1E3D44F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CB00119-688F-42FA-9261-3874B1E3D44F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CB00119-688F-42FA-9261-3874B1E3D44F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1723CFF2-6368-4A91-9F98-BA02FF63CA69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1723CFF2-6368-4A91-9F98-BA02FF63CA69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1723CFF2-6368-4A91-9F98-BA02FF63CA69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1723CFF2-6368-4A91-9F98-BA02FF63CA69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47861757-91B6-4F74-A198-A43544E2069B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47861757-91B6-4F74-A198-A43544E2069B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47861757-91B6-4F74-A198-A43544E2069B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47861757-91B6-4F74-A198-A43544E2069B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD387C68-A41C-4438-8AC2-0419CCB95A91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD387C68-A41C-4438-8AC2-0419CCB95A91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD387C68-A41C-4438-8AC2-0419CCB95A91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD387C68-A41C-4438-8AC2-0419CCB95A91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10ED2EB7-AABC-4A77-9E03-EDB0D8420D18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10ED2EB7-AABC-4A77-9E03-EDB0D8420D18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10ED2EB7-AABC-4A77-9E03-EDB0D8420D18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10ED2EB7-AABC-4A77-9E03-EDB0D8420D18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A26D309D-47AA-4858-ABA3-0F26299C1BC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A26D309D-47AA-4858-ABA3-0F26299C1BC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A26D309D-47AA-4858-ABA3-0F26299C1BC2}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{A26D309D-47AA-4858-ABA3-0F26299C1BC2}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{13C269CA-7D1E-4823-AE57-59B0941A50B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13C269CA-7D1E-4823-AE57-59B0941A50B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13C269CA-7D1E-4823-AE57-59B0941A50B8}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{13C269CA-7D1E-4823-AE57-59B0941A50B8}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{B8B4C69D-F86A-4636-8DD0-A3F1A249F688}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8B4C69D-F86A-4636-8DD0-A3F1A249F688}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8B4C69D-F86A-4636-8DD0-A3F1A249F688}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8B4C69D-F86A-4636-8DD0-A3F1A249F688}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2467992A-0B02-4BE5-BDC2-B4847D0B22EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2467992A-0B02-4BE5-BDC2-B4847D0B22EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2467992A-0B02-4BE5-BDC2-B4847D0B22EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2467992A-0B02-4BE5-BDC2-B4847D0B22EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DE4F6C8-FC7D-45D5-96E3-A608A0E57374}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DE4F6C8-FC7D-45D5-96E3-A608A0E57374}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DE4F6C8-FC7D-45D5-96E3-A608A0E57374}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DE4F6C8-FC7D-45D5-96E3-A608A0E57374}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCD26E11-7E17-4AA5-8583-6A38DA4660C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCD26E11-7E17-4AA5-8583-6A38DA4660C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCD26E11-7E17-4AA5-8583-6A38DA4660C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCD26E11-7E17-4AA5-8583-6A38DA4660C9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{017E86F9-3A87-47E5-B871-67B6F62D6AE5} = {52CD3756-8356-49A4-B726-38CE71AF34C8}
+		{A996132C-796F-41C3-9589-71F7069A4AAC} = {52CD3756-8356-49A4-B726-38CE71AF34C8}
+		{FF9384CE-0503-4033-9FF1-55ABC9D948F1} = {52CD3756-8356-49A4-B726-38CE71AF34C8}
+		{18D38A58-D3DC-410D-A3E6-54E73DF20B3E} = {52CD3756-8356-49A4-B726-38CE71AF34C8}
+		{23E739BD-6A76-4530-B153-DF68A7B0B474} = {52CD3756-8356-49A4-B726-38CE71AF34C8}
+		{6DC87F6C-C8D0-495B-8699-75D6753B2E47} = {52CD3756-8356-49A4-B726-38CE71AF34C8}
+		{B8B4C69D-F86A-4636-8DD0-A3F1A249F688} = {52CD3756-8356-49A4-B726-38CE71AF34C8}
+		{7772A18A-2C28-4463-BB8D-4F7464500D55} = {017E86F9-3A87-47E5-B871-67B6F62D6AE5}
+		{946AB177-B45B-4D4D-8A2A-612B295CFB04} = {017E86F9-3A87-47E5-B871-67B6F62D6AE5}
+		{F9BC748C-5F13-4F5B-A0E6-EBA3A8AA74FB} = {A996132C-796F-41C3-9589-71F7069A4AAC}
+		{4C084CAC-A5C8-4E8D-B03C-ACDE235841D2} = {A996132C-796F-41C3-9589-71F7069A4AAC}
+		{A6D2B99E-2605-484F-8AF0-2EB3F2EC7BE3} = {18D38A58-D3DC-410D-A3E6-54E73DF20B3E}
+		{597F56F2-8469-49D8-A9DA-6FDD29B5555B} = {18D38A58-D3DC-410D-A3E6-54E73DF20B3E}
+		{C7C3B996-A3F2-41BC-88A0-13C67C055235} = {23E739BD-6A76-4530-B153-DF68A7B0B474}
+		{577A8A62-B502-4A82-A62E-948EE089397C} = {23E739BD-6A76-4530-B153-DF68A7B0B474}
+		{47861757-91B6-4F74-A198-A43544E2069B} = {328EF22B-0B72-41F6-BE6F-8F65804AA05F}
+		{1723CFF2-6368-4A91-9F98-BA02FF63CA69} = {328EF22B-0B72-41F6-BE6F-8F65804AA05F}
+		{6CB00119-688F-42FA-9261-3874B1E3D44F} = {328EF22B-0B72-41F6-BE6F-8F65804AA05F}
+		{A26D309D-47AA-4858-ABA3-0F26299C1BC2} = {6DC87F6C-C8D0-495B-8699-75D6753B2E47}
+		{13C269CA-7D1E-4823-AE57-59B0941A50B8} = {6DC87F6C-C8D0-495B-8699-75D6753B2E47}
+	EndGlobalSection
+EndGlobal

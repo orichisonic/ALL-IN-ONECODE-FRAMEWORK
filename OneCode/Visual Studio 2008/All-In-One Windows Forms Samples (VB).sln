@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VBWinFormControls", "VBWinFormControls\VBWinFormControls.vbproj", "{6FA7901F-09BD-43AB-B472-690EBF96077C}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VBWinFormDataBinding", "VBWinFormDataBinding\VBWinFormDataBinding.vbproj", "{02C20DEA-AB1B-47E2-AB3C-033E628F54AA}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VBWinFormDataGridView", "VBWinFormDataGridView\VBWinFormDataGridView.vbproj", "{27D2633B-4F34-466C-9177-BCCE6CA02AE6}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VBWinFormTreeViewTraversal", "VBWinFormTreeViewTraversal\VBWinFormTreeViewTraversal.vbproj", "{6DD89D2D-F685-4C35-8F2F-30A1F6C77E43}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VBWinFormDesignerCodeDom", "VBWinFormDesignerCodeDom\VBWinFormDesignerCodeDom.vbproj", "{2FBD4070-D30E-436D-ADEA-762105664EBF}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VBWinFormDragAndDrop", "VBWinFormDragAndDrop\VBWinFormDragAndDrop.vbproj", "{24C8C69D-1931-4071-92E2-2D49AAE383A0}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VBWinFormGraphics", "VBWinFormGraphics\VBWinFormGraphics.vbproj", "{C6B8029B-BD24-4112-B49C-E71F05485D82}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VBWinFormLocalization", "VBWinFormLocalization\VBWinFormLocalization.vbproj", "{A6C32E07-F58D-48E9-9FA8-1B7BC0CA8BA3}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VBWinFormTreeViewLoad", "VBWinFormTreeViewLoad\VBWinFormTreeViewLoad.vbproj", "{985A4BF3-15E6-46FB-9300-2CBE4C6F553C}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VBWinFormObjPersistence", "VBWinFormObjPersistence\VBWinFormObjPersistence.vbproj", "{F540EAC2-7607-4523-B741-F8C0887E3788}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VBWinFormGroupRadioButtons", "VBWinFormGroupRadioButtons\VBWinFormGroupRadioButtons.vbproj", "{E2E4DA24-F119-4735-AEC0-338C9B35515E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6FA7901F-09BD-43AB-B472-690EBF96077C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FA7901F-09BD-43AB-B472-690EBF96077C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FA7901F-09BD-43AB-B472-690EBF96077C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FA7901F-09BD-43AB-B472-690EBF96077C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02C20DEA-AB1B-47E2-AB3C-033E628F54AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02C20DEA-AB1B-47E2-AB3C-033E628F54AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02C20DEA-AB1B-47E2-AB3C-033E628F54AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02C20DEA-AB1B-47E2-AB3C-033E628F54AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27D2633B-4F34-466C-9177-BCCE6CA02AE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27D2633B-4F34-466C-9177-BCCE6CA02AE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27D2633B-4F34-466C-9177-BCCE6CA02AE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27D2633B-4F34-466C-9177-BCCE6CA02AE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DD89D2D-F685-4C35-8F2F-30A1F6C77E43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DD89D2D-F685-4C35-8F2F-30A1F6C77E43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DD89D2D-F685-4C35-8F2F-30A1F6C77E43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DD89D2D-F685-4C35-8F2F-30A1F6C77E43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FBD4070-D30E-436D-ADEA-762105664EBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FBD4070-D30E-436D-ADEA-762105664EBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FBD4070-D30E-436D-ADEA-762105664EBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FBD4070-D30E-436D-ADEA-762105664EBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24C8C69D-1931-4071-92E2-2D49AAE383A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24C8C69D-1931-4071-92E2-2D49AAE383A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24C8C69D-1931-4071-92E2-2D49AAE383A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24C8C69D-1931-4071-92E2-2D49AAE383A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6B8029B-BD24-4112-B49C-E71F05485D82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6B8029B-BD24-4112-B49C-E71F05485D82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6B8029B-BD24-4112-B49C-E71F05485D82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6B8029B-BD24-4112-B49C-E71F05485D82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6C32E07-F58D-48E9-9FA8-1B7BC0CA8BA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6C32E07-F58D-48E9-9FA8-1B7BC0CA8BA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6C32E07-F58D-48E9-9FA8-1B7BC0CA8BA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6C32E07-F58D-48E9-9FA8-1B7BC0CA8BA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{985A4BF3-15E6-46FB-9300-2CBE4C6F553C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{985A4BF3-15E6-46FB-9300-2CBE4C6F553C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{985A4BF3-15E6-46FB-9300-2CBE4C6F553C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{985A4BF3-15E6-46FB-9300-2CBE4C6F553C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F540EAC2-7607-4523-B741-F8C0887E3788}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F540EAC2-7607-4523-B741-F8C0887E3788}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F540EAC2-7607-4523-B741-F8C0887E3788}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F540EAC2-7607-4523-B741-F8C0887E3788}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2E4DA24-F119-4735-AEC0-338C9B35515E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2E4DA24-F119-4735-AEC0-338C9B35515E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2E4DA24-F119-4735-AEC0-338C9B35515E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2E4DA24-F119-4735-AEC0-338C9B35515E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

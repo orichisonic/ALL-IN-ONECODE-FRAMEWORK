@@ -1,0 +1,5 @@
+E:\onecodetools\SampleBrowser\OneCode\Visual Studio 2008\Debug\CSNamedPipeServer.exe
+E:\onecodetools\SampleBrowser\OneCode\Visual Studio 2008\Debug\CSNamedPipeServer.pdb
+E:\onecodetools\SampleBrowser\OneCode\Visual Studio 2008\CSNamedPipeServer\obj\Debug\ResolveAssemblyReference.cache
+E:\onecodetools\SampleBrowser\OneCode\Visual Studio 2008\CSNamedPipeServer\obj\Debug\CSNamedPipeServer.exe
+E:\onecodetools\SampleBrowser\OneCode\Visual Studio 2008\CSNamedPipeServer\obj\Debug\CSNamedPipeServer.pdb

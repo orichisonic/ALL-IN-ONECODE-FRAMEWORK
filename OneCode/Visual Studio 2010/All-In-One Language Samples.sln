@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSBasics", "CSBasics\CSBasics.csproj", "{A0BD54DA-AC90-491D-A682-55CC8FD9FE41}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CppBasics", "CppBasics\CppBasics.vcxproj", "{04FCE36E-7785-4520-BAAF-B27C31A71243}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|Win32 = Debug|Win32
+		Debug|x86 = Debug|x86
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|Win32 = Release|Win32
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0BD54DA-AC90-491D-A682-55CC8FD9FE41}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{A0BD54DA-AC90-491D-A682-55CC8FD9FE41}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{A0BD54DA-AC90-491D-A682-55CC8FD9FE41}.Debug|Win32.ActiveCfg = Debug|x86
+		{A0BD54DA-AC90-491D-A682-55CC8FD9FE41}.Debug|x86.ActiveCfg = Debug|x86
+		{A0BD54DA-AC90-491D-A682-55CC8FD9FE41}.Debug|x86.Build.0 = Debug|x86
+		{A0BD54DA-AC90-491D-A682-55CC8FD9FE41}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{A0BD54DA-AC90-491D-A682-55CC8FD9FE41}.Release|Mixed Platforms.Build.0 = Release|x86
+		{A0BD54DA-AC90-491D-A682-55CC8FD9FE41}.Release|Win32.ActiveCfg = Release|x86
+		{A0BD54DA-AC90-491D-A682-55CC8FD9FE41}.Release|x86.ActiveCfg = Release|x86
+		{A0BD54DA-AC90-491D-A682-55CC8FD9FE41}.Release|x86.Build.0 = Release|x86
+		{04FCE36E-7785-4520-BAAF-B27C31A71243}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{04FCE36E-7785-4520-BAAF-B27C31A71243}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{04FCE36E-7785-4520-BAAF-B27C31A71243}.Debug|Win32.ActiveCfg = Debug|Win32
+		{04FCE36E-7785-4520-BAAF-B27C31A71243}.Debug|Win32.Build.0 = Debug|Win32
+		{04FCE36E-7785-4520-BAAF-B27C31A71243}.Debug|x86.ActiveCfg = Debug|Win32
+		{04FCE36E-7785-4520-BAAF-B27C31A71243}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{04FCE36E-7785-4520-BAAF-B27C31A71243}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{04FCE36E-7785-4520-BAAF-B27C31A71243}.Release|Win32.ActiveCfg = Release|Win32
+		{04FCE36E-7785-4520-BAAF-B27C31A71243}.Release|Win32.Build.0 = Release|Win32
+		{04FCE36E-7785-4520-BAAF-B27C31A71243}.Release|x86.ActiveCfg = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

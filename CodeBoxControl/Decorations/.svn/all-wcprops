@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/1146/SampleBrowser/CodeBoxControl/Decorations
+END
+DecorationScheme.cs
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1146/SampleBrowser/CodeBoxControl/Decorations/DecorationScheme.cs
+END
+DoubleRegexDecoration.cs
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/1146/SampleBrowser/CodeBoxControl/Decorations/DoubleRegexDecoration.cs
+END
+StringDecoration.cs
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1146/SampleBrowser/CodeBoxControl/Decorations/StringDecoration.cs
+END
+RegexWordDecoration.cs
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/1146/SampleBrowser/CodeBoxControl/Decorations/RegexWordDecoration.cs
+END
+RegexDecoration.cs
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1146/SampleBrowser/CodeBoxControl/Decorations/RegexDecoration.cs
+END
+Decoration.cs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1146/SampleBrowser/CodeBoxControl/Decorations/Decoration.cs
+END
+DecorationConditionTypeConverter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/1146/SampleBrowser/CodeBoxControl/Decorations/DecorationConditionTypeConverter.cs
+END
+ExplicitDecoration.cs
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/1146/SampleBrowser/CodeBoxControl/Decorations/ExplicitDecoration.cs
+END
+MultiRegexWordDecoration.cs
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/1146/SampleBrowser/CodeBoxControl/Decorations/MultiRegexWordDecoration.cs
+END
+MultiStringDecoration.cs
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/1146/SampleBrowser/CodeBoxControl/Decorations/MultiStringDecoration.cs
+END
+MultiRegexDecoration.cs
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/1146/SampleBrowser/CodeBoxControl/Decorations/MultiRegexDecoration.cs
+END
+DecorationCondition.cs
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/1146/SampleBrowser/CodeBoxControl/Decorations/DecorationCondition.cs
+END
+EDecorationType.cs
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1146/SampleBrowser/CodeBoxControl/Decorations/EDecorationType.cs
+END
+RegexMatchDecoration.cs
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/1146/SampleBrowser/CodeBoxControl/Decorations/RegexMatchDecoration.cs
+END
+DecorationSchemes.cs
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/1165/SampleBrowser/CodeBoxControl/Decorations/DecorationSchemes.cs
+END
+MultiExplicitDecoration.cs
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/1146/SampleBrowser/CodeBoxControl/Decorations/MultiExplicitDecoration.cs
+END
+DoubleQuotedDecoration.cs
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/1146/SampleBrowser/CodeBoxControl/Decorations/DoubleQuotedDecoration.cs
+END
+DecorationSchemeTypeConverter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/1146/SampleBrowser/CodeBoxControl/Decorations/DecorationSchemeTypeConverter.cs
+END

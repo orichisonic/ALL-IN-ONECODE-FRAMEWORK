@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSShellExtCopyHookHandler", "CSShellExtCopyHookHandler\CSShellExtCopyHookHandler.csproj", "{0E5BD534-449E-453F-B00A-B109E66C7A74}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "CSShellExtCopyHookHandlerSetup(x86)", "CSShellExtCopyHookHandler\CSShellExtCopyHookHandlerSetup(x86)\CSShellExtCopyHookHandlerSetup(x86).vdproj", "{14B8C035-CD74-4F22-B257-D37FA50E0B7F}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "CSShellExtCopyHookHandlerSetup(x64)", "CSShellExtCopyHookHandler\CSShellExtCopyHookHandlerSetup(x64)\CSShellExtCopyHookHandlerSetup(x64).vdproj", "{980F56C5-8074-420E-9FFA-4610C64EF3DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E5BD534-449E-453F-B00A-B109E66C7A74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E5BD534-449E-453F-B00A-B109E66C7A74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E5BD534-449E-453F-B00A-B109E66C7A74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E5BD534-449E-453F-B00A-B109E66C7A74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14B8C035-CD74-4F22-B257-D37FA50E0B7F}.Debug|Any CPU.ActiveCfg = Debug
+		{14B8C035-CD74-4F22-B257-D37FA50E0B7F}.Debug|Any CPU.Build.0 = Debug
+		{14B8C035-CD74-4F22-B257-D37FA50E0B7F}.Release|Any CPU.ActiveCfg = Release
+		{14B8C035-CD74-4F22-B257-D37FA50E0B7F}.Release|Any CPU.Build.0 = Release
+		{980F56C5-8074-420E-9FFA-4610C64EF3DC}.Debug|Any CPU.ActiveCfg = Debug
+		{980F56C5-8074-420E-9FFA-4610C64EF3DC}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

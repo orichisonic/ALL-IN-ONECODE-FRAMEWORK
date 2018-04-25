@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VBShellExtThumbnailHandler", "VBShellExtThumbnailHandler\VBShellExtThumbnailHandler.vbproj", "{F005E862-F077-454D-BCE1-F61C41AEE995}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "VBShellExtThumbnailHandlerSetup(x86)", "VBShellExtThumbnailHandler\VBShellExtThumbnailHandlerSetup(x86)\VBShellExtThumbnailHandlerSetup(x86).vdproj", "{DCFCC93B-3C34-4642-9271-114A82DCE5A7}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "VBShellExtThumbnailHandlerSetup(x64)", "VBShellExtThumbnailHandler\VBShellExtThumbnailHandlerSetup(x64)\VBShellExtThumbnailHandlerSetup(x64).vdproj", "{1A8CDB38-333B-401B-885D-C6193E9AF271}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F005E862-F077-454D-BCE1-F61C41AEE995}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F005E862-F077-454D-BCE1-F61C41AEE995}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F005E862-F077-454D-BCE1-F61C41AEE995}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F005E862-F077-454D-BCE1-F61C41AEE995}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCFCC93B-3C34-4642-9271-114A82DCE5A7}.Debug|Any CPU.ActiveCfg = Debug
+		{DCFCC93B-3C34-4642-9271-114A82DCE5A7}.Release|Any CPU.ActiveCfg = Release
+		{1A8CDB38-333B-401B-885D-C6193E9AF271}.Debug|Any CPU.ActiveCfg = Debug
+		{1A8CDB38-333B-401B-885D-C6193E9AF271}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
